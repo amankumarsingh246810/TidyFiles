@@ -37,12 +37,15 @@ To organize files in a specified directory, use the following command:
 
 ```bash
 orgnaize 
+<dir path>
 ```
 
 For example, to organize files in your `Downloads` folder:
 
 ```bash
-organize home/user/Downloads
+organize 
+
+home/user/Downloads
 ```
 
 <!-- ### Exclude a File Type
