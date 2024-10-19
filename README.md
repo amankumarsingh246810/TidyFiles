@@ -36,14 +36,13 @@ A powerful command-line interface (CLI) tool built with Node.js to help you orga
 To organize files in a specified directory, use the following command:
 
 ```bash
-node organize.js 
-<enter path>
+orgnaize 
 ```
 
 For example, to organize files in your `Downloads` folder:
 
 ```bash
-node organize.js ~/Downloads
+organize home/user/Downloads
 ```
 
 <!-- ### Exclude a File Type
