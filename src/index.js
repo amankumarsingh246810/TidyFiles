@@ -10,7 +10,7 @@ const inquirer = require('inquirer').default;
     {
       type: 'input',
       name: 'username',
-      message: 'enter path to dirctory'.green,
+      message: 'enter path to directory'.green,
     }
 ]
 
@@ -24,7 +24,7 @@ if(fs.existsSync(givenPath))
         // scan directory
         let scanDir=fs.readdirSync(givenPath)
     
-    // know content type of directiry
+    // know content type of directory
     //filter files from directory
     
     for(let i=0;i<scanDir.length;i++){
@@ -54,7 +54,7 @@ if(fs.existsSync(givenPath))
        else 
        colObj.others.push(filesArray[i])
     }
-    // crearing desired dirctories
+    // creating desired directories
     for (let category in colObj) {
         let categoryPath = path.join(givenPath, category);
         if (!fs.existsSync(categoryPath)) {

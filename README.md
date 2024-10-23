@@ -36,7 +36,7 @@ A powerful command-line interface (CLI) tool built with Node.js to help you orga
 To organize files in a specified directory, use the following command:
 
 ```bash
-orgnaize 
+organize 
 <dir path>
 ```
 
